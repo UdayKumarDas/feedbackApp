@@ -123,9 +123,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 #STATIC_URL = os.path.join(BASE_DIR, '/static/')
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+#PROJECT_ROOT = "http://feedbackeb-env.eba-pi9iwmem.us-east-1.elasticbeanstalk.com"
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+#STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 
 # import mimetypes
 # mimetypes.add_type("text/css", ".css", True)
