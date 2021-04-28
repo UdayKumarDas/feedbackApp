@@ -123,5 +123,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 #STATIC_URL = os.path.join(BASE_DIR, '/static/')
-import mimetypes
-mimetypes.add_type("text/css", ".css", True)
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
+
+# import mimetypes
+# mimetypes.add_type("text/css", ".css", True)
