@@ -126,7 +126,7 @@ USE_TZ = True
 #PROJECT_ROOT = "http://feedbackeb-env.eba-pi9iwmem.us-east-1.elasticbeanstalk.com"
 #STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static')
 STATIC_ROOT =''
-STATIC_URL = '/static/'
+STATIC_URL = '/static/admin/'
 STATICFILES_DIRS = ( os.path.join('static'), )
 # import mimetypes
 # mimetypes.add_type("text/css", ".css", True)
